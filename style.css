@@ -1,0 +1,474 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-color: white;
+  width: 100%;
+  font-family: Sans-Serif;
+}
+.menu-utama{
+  height: 750px;
+  background-image: url('Bg5.jpg');
+  background-position: ;
+}
+.navigasi ul li a,.p-nav{
+  text-decoration: none;
+  margin: 0 20px 0 0;
+  margin-top: 20px;
+  display: inline-block;
+  color: #000000;
+  font-weight: bold;
+}
+.navigasi .p-nav{
+  padding-left: 0;
+  display: inline-block;
+  margin-right: 58px;
+  color: White;
+}
+.navigasi .menu:active{
+  color: #0287FE;
+}
+.navigasi ul{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  list-style-type:none;
+  
+}
+.navigasi .menu{
+  margin-left: 0;
+}
+.image-hero .contak ul{
+  list-style-type:none;
+  margin-top: 100px;
+}
+.image-hero .contak ul li a{
+  text-decoration: none;
+  color: #0287FE;
+  margin-bottom: 5px;
+  display: inline-block;
+  font-size: 25px;
+}
+.image-hero{
+  position: absolute;
+  left: 10%;
+  display: flex;
+  
+}
+.image{
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 50px;
+  
+}
+.isi .judul{
+  margin-top: 300px;
+  padding-left: 10%;
+}
+.isi .judul p{ 
+}
+.isi-judul{
+  margin-top: 5px;
+}
+.isi .judul .w{
+  color: #0287FE;
+}
+.isi .judul .text-judul{
+  font-weight: bold;
+  font-size: 27px;
+}
+.isi .isi-judul{
+  padding-left: 2%;
+  ;
+  text-shadow: 10px 5px 5px #ffffff;
+}
+.isi .judul .p{
+  color: rgba(42,42,42,0.88);
+}
+.isi .contak-me{
+  
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-top: 10px;
+  
+  
+  
+  
+}
+.isi .contak-me .button{
+  background-color: #0287FE;
+  width: ;
+  height: 35px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  padding: 8px 5px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.isi .contak-me .button i{
+  padding-left: 3px;
+}
+/* Style Portofolio Adalah Menguasai Html ccs Bahsan Proraman py js */
+.portofolio{
+  height: 700px;
+  background-color: White;
+  margin-left: 0;
+  margin-right: 5px;
+  background-image: url('Bgporto.jpg');
+  background-size: cover;
+}
+.portofolio .box-html{
+  display: flex;
+}
+.kosong{
+  height: 274px;
+  background-color: White;
+}
+.box-html,.box-css,.box-js,.box-python{
+  width: 89%;
+  height: 233px;
+  margin: auto;
+  background-color:rgba(42,42,42,0.3);
+  box-sizing: border-box;
+  position: relative;
+  top: 10px;
+  border-radius: 5px;
+  
+}
+.box-html{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  border-top: solid 5px #ff6c39;
+}
+.box-css{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  border-top: solid 5px #2299f8;
+}
+.box-js{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  border-top: solid 5px #ffd83a;
+}
+.box-python{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  border-top: solid 5px #347aba;
+}
+.portofolio .img{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  right: 70%;
+  top: 50px;
+  
+}
+
+/*JUDUL BOX HTML CUYYYY*/
+.box-html .judul-h{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+  left: 25px;
+  color: #ff6c39;
+}
+.portofolio .box-html .isi-box-html{
+  right: -25px;
+  top: 75px;
+  position: relative;
+}
+.portofolio .box-html .img{
+  margin-left: 55px;
+  width: 95px;
+  position: absolute;
+  left: -41px;
+}
+
+
+/*JUDUDL BOX CSS CUYY*/
+.box-css .judul-c{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 35px;
+  right: 5px;
+  color: #2299f8;
+}
+.portofolio .box-css .isi-box-css{
+  right: -25px;
+  top: 80px;
+  position: relative;
+}
+.portofolio .box-css .img{
+  margin-left: 55px;
+  width: 95px;
+  position: absolute;
+  left: -41px;
+}
+
+
+
+/*JDUDUL BOX JAVASCRIPT CUYYY*/
+.box-js .judul-js{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 35px;
+  left: -12px;
+  color: #ffd83a;
+}
+.portofolio .box-js .isi-box-js{
+  right: -55px;
+  top: 80px;
+  position: relative;
+}
+.portofolio .box-js .img{
+  width: 95px;
+  height: 95px;
+  position: absolute;
+  right: 230px;
+}
+
+
+
+/*JUDUL BOX PYTHON CUYYY*/
+.box-python .judul-py{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 35px;
+  left: -41px;
+  color: #347aba;
+  width: 100px;
+}
+.portofolio .box-python .isi-box-py{
+  right: -47px;
+  top: 80px;
+  position: relative;
+}
+.portofolio .box-python .img{
+  margin-left: 10px;
+  width: 110px;
+  height: 110px;
+  top: 65px;
+  position: absolute;
+  right: 215px;
+}
+
+
+
+.portofolio .h3{
+  position: relative;
+  font-size: 15px;
+  top: 10px;
+  left: 20%;
+}
+.portofolio .hr{
+  width: 150px;
+  margin-right: 100px;
+}
+.portofolio .span{
+   left: 20%;
+   position: relative;
+   top: 25px;
+}
+
+/*portofolio-asli Bukan Kaleng²*/
+.portofolio-asli{
+  height: 500px;
+}
+.portofolio-asli .box-porto{
+  height: 500px;
+  width: 89%;
+  margin: auto;
+  margin-top: 15px;
+  
+}
+.box-porto .box-float{
+  display: float;
+  width: 100%;
+  margin-top: 5px;
+  box-sizing: border-box;
+  background-color: #00ff17;
+}
+.box-porto .h3-porto{
+  text-align: center;
+}
+.box-porto .h3-porto h3{
+  color: #2299f8;
+  letter-spacing: 2.5px;
+  font-family: 'Ubuntu';
+}
+.box-porto hr{
+  height: 2px;
+  background-color: black;
+  width: 100%;
+}
+.box-porto .satu,.dua,.tiga,.empat{
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*box-shadow: 2px 1px 15px #0287FE;*/
+}
+.satu{
+  background-color: rgb(255,173,68);
+  height: 125px;
+  width: 50%;
+  float: left;
+  background-image: url('bg3.jpg');
+  background-size: cover;
+}
+.dua{
+  background-color: #eae;
+  height: 255px;
+  width: 49%;
+  float: right;
+  background-image: url('bgporto1.jpg');
+  background-size: cover;
+}
+.tiga{
+  background-color: salmon;
+  height: 125px;
+  width: 50%;
+  float: left;
+  margin-top: 5px;
+  
+}
+.empat{
+  background-color: rgb(120,255,130);
+  height: 150px;
+  width: 100%;
+  float: left;
+  margin-top: 5px;
+  background-image: url('bg2.png');
+  background-size: cover;
+}
+
+
+/*Style ABOUT*/
+.about{
+  height: 500px;
+  background-color: White;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Ubuntu';
+}
+.about .isi-about{
+  margin-top: 10px;
+  font: 17px;
+}
+.about .judul{
+  text-transform: ;
+  font-size: 25px;
+  letter-spacing: 2.5px;
+  color: #2299f8;
+}
+.p-satu,.p-dua,.p-tiga{
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+
+.ahir{
+  height: 500px;
+  width: 100%;
+  background-image: url('ahir2.jpg');
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ahir .isi-ahir a{
+  display: inline-block;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  position: relative;
+  top: 25px;
+  left: 100px;
+}
+
+
+
+/* Resposif untuk desktop*/
+@media only screen and (min-width: 768px) {
+  .image-hero .image{
+    width: 400px;
+    margin-left: 95%;
+  }
+  .menu-utama{
+    height:;
+    width:;
+    background-image:url('Bg6.jpg');
+  }
+  .navigasi .p-nav{
+    margin-top: 23px;
+    padding-left: 0;
+    display: inline-block;
+    margin-right: 400px;
+    color: White;
+  }
+  .navigasi ul li a,.p-nav{
+    text-decoration: none;
+    margin: 0 40px 0 0;
+    font-size: 27px;
+    
+  }
+  .navigasi ul{
+    margin-right: 20px;
+  }
+  .navigasi ul li a{}
+  
+  
+  .image-hero .contak ul li a{
+    margin-bottom: 30px;
+   
+  }
+  .image-hero .contak{
+    
+  }
+  .isi{
+    margin-top: 340px;
+    font-size: 27px;
+  }
+  .isi .judul .text-judul{
+    font-size: 35px;
+  }
+  /* front-end */
+  .isi .judul .p{
+    font-size: 19px;
+  }
+  .isi .judul .contak-me .button{
+    padding-top: 10px;
+  }
+  .isi .contak-me{
+    font-size: 20px;
+  }
+  .isi .contak-me .button{
+    height: 45px;
+    box-sizing: border-box;
+    padding: 10px 8px;
+    border-radius: 5px;
+   
+  }
+  /* background bawah gambar */
+  .portofolio{
+    background-color: White;
+    background-image: url('Bg7.jpg');
+  }
+}
